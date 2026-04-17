@@ -61,7 +61,14 @@ out = FlashAttentionFunction.apply(q, k, v, True)
 
 ---
 
-## Benchmark Results
+## Run Benchmark
+
+```bash
+pip install -r requirements.txt
+python -m benchmarks.benchmark
+```
+
+---
 
 ## 📊 Benchmark Results (Tesla T4, bfloat16)
 
